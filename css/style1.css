@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+h2, h3, h5 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header and Navbar */
+.bg-common {
+    background-color: lightblue;
+    color: white;
+}
+
+
+
+.navbar-brand img {
+    width: 120px; /* Set logo size */
+    height: auto;
+}
+
+.navbar .nav-link.active {
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem; 
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color:black;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Carousel */
+.carousel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-indicators button {
+    background-color: lightblue;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* About Section */
+.grp {
+    padding: 50px 0;
+}
+
+.grp h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: lightblue;
+}
+
+.grp p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: gray;
+}
+
+.grp img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grp .btn {
+    margin-top: 20px;
+    color: white;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 0;
+    background-color: white;
+}
+
+#portfolio h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: black;
+}
+
+.gallery_product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery_product img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.filter-button {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.filter-button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Contact Section */
+#contact\ me {
+    padding: 50px 0;
+}
+
+#contact\ me h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #f0ad4e;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

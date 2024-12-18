@@ -1,0 +1,21 @@
+.bg-common {
+    background-color: green;
+}
+
+.navbar-nav li {
+    padding: 0px 20px
+}
+
+.active {
+    font-weight: bold !important;
+    color: white;
+}
+
+.gap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.even{
+    background-color: rgb(228, 246, 247);
+}
